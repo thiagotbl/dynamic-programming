@@ -1,4 +1,4 @@
-package howsum
+package canconstruct
 
 import "strings"
 
