@@ -6,7 +6,6 @@ func Calculate(n uint) uint {
 	}
 
 	arr := make([]uint, n+1)
-	arr[0] = 0
 	arr[1] = 1
 
 	for i := uint(0); i < n; i++ {
