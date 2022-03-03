@@ -17,4 +17,5 @@ func TestFibonacci(t *testing.T) {
 	assert.EqualValues(5, Calculate(5))
 	assert.EqualValues(55, Calculate(10))
 	assert.EqualValues(610, Calculate(15))
+	assert.EqualValues(12586269025, Calculate(50))
 }
