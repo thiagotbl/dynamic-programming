@@ -14,7 +14,7 @@ func Calculate(n uint) uint {
 		incrementAt(arr, arr[i], i+2)
 	}
 
-	return arr[len(arr)-1]
+	return arr[n]
 }
 
 func incrementAt(arr []uint, value uint, index uint) {
