@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestFibonacci(t *testing.T) {
+func TestGridTraveler(t *testing.T) {
 	assert := assert.New(t)
 
 	assert.EqualValues(GridTraveler(1, 1), 1)
